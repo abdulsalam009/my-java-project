@@ -1,0 +1,92 @@
+How to push the code in GITHUB
+==============================
+step1:
+-----
+	Create a remote repository.
+	ex:
+		https://github.com/NiyazulHasan/my-java-project
+
+step2:
+------
+	Create a "myCode" folder on desktop.
+
+step3:
+-----
+	Copy and paste the notes inside "myCode" folder.
+
+step4:
+------		
+	Initialized git empty repository.
+	ex:
+		git init 
+
+step5:
+-----
+	Check git status.
+	ex:
+		git status 
+
+step6:
+-----
+	Switch the branch from master to main.
+	ex:
+		git branch --move master main 
+
+step7:
+-----
+	Add all files to staging area.
+	ex:
+		git add . 
+
+step8:
+------
+	Commit the changes.
+	ex:
+		git commit -m "my project notes"
+
+step9:
+------
+	Add remote repository.
+	ex:
+		git remote add origin https://github.com/NiyazulHasan/my-java-project
+
+step10:
+-------
+	Push the code to remote repository.
+	ex:
+		git push -f origin main 
+
+
+How to pull the code 
+===================
+step1:
+------
+	create a "demo" folder on desktop.
+
+step2:
+------
+	Initialized git empty repository.
+	ex:
+		git init 
+
+step3:
+------
+	Make a pull request.
+	ex:
+		git pull  https://github.com/NiyazulHasan/my-java-project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
